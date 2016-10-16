@@ -1,0 +1,25 @@
+<div ng-controller="MainCtrl">
+  <b>Aktueller Wert</b>
+  <button ng-click="ModelReload()">Aktualisieren</button>
+  <p ng-bind-html="firstDataString"></p>  
+  
+  <b>Grafischer Verlauf letzte 200 Messwerte:</b>
+
+  <angular-chart options="options" instance="instance"></angular-chart>
+  
+  <b>Letzte 200 Messwerte:</b> 
+  
+  <table border="1" align="center" width="100%" style="margin-bottom: 25px">
+	<tr> 
+		<td>Zeit:</td>
+		<td>Temperatur:</td>
+		<td>Luftfeuchtigkeit:</td>
+	</tr>
+	
+	<tr ng-repeat="x in unreversed">
+		<td>{{x.DateTime}}</td>
+		<td>{{x.TemperatureC}}&#x00B0;C</td>
+		<td>{{x.HumidityP}}%</td></tr>
+	</table>
+</div>
+
