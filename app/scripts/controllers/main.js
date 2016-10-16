@@ -18,7 +18,7 @@ angular.module('testApp')
 	
 	$scope.unreversed = [];	
 
-	$http.get('http://192.168.0.111:3000/weather').success(function(data, status, headers, config) {
+	$http.get('http://mypi.chris-ullrich.de/weather').success(function(data, status, headers, config) {
 		$scope.unreversed = JSON.parse(JSON.stringify(data));		
         $scope.options.data = data.reverse();		
 		console.log("seems that there is data")
