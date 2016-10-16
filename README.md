@@ -23,7 +23,7 @@ Running `grunt test` will run the unit tests with karma.
 
 ## Demo
 
-For a live running version please visit http://weatherpi.chris-ullrich.de/.
+For a live running version (hosted in Microsoft Azure) please visit http://weatherpi.chris-ullrich.de/.
 
 The JSON data visualized can be seen at http://mypi.chris-ullrich.de/weather.
 
