@@ -2,7 +2,7 @@
 
 Angular.js v1 based Frontend for the Temperature Pi Home Project.
 
-The HTML5 app provided in `/app` provides an example of how to consume a JSON-based REST API using MVVM architecture. In this scenario, both temperature and humidity read from a USB-WDE1 receiver (http://www.elv.de/-353.html) and subsequently stored into a MySQL database is visualized via d3.js.
+The HTML5 app provided in `/app` provides an example of how to consume a JSON-based REST API using MVVM architecture. In this scenario, both temperature and humidity read from a USB-WDE1 receiver (http://www.elv.de/-353.html) and subsequently stored into a MySQL database is visualized via c3.js.
 
 As usual for Angular.js based apps, the bootstrapper can be found at `app/scripts/app.js`, View Models at `app/scripts/controllers` and Views at `app/views`.
 
