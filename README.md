@@ -10,3 +10,7 @@ Run `grunt` for building and `grunt serve` for preview.
 ## Testing
 
 Running `grunt test` will run the unit tests with karma.
+
+## Demo
+
+For a live running version please visit http://weatherpi.chris-ullrich.de/
